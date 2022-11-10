@@ -1,0 +1,134 @@
+/*reset*/
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 3vh 0;
+    padding: 4vh;
+    background-color: #d5d5cd;
+} 
+
+.navbar a{
+    color: black;
+    font-size: x-large;
+}
+
+.color {
+    border: 1px solid black;
+    margin-top: 2vh;
+    width: 25vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: none;
+}
+
+.ungu{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: purple;
+}
+
+.biru{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: blue; 
+}
+
+.merah{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: red; 
+}
+
+.hitam{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: black; 
+}
+
+.coklat{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: brown; 
+}
+
+.kursi {
+    border: 1px solid black;
+    border-radius: 3vh;
+    margin-top: 1vh;
+    margin-left: 18px;
+    width: 40vw;
+    height: 80vh;
+}
+
+.kursi img{
+    width: 30vw;
+    height: 60vh;
+    padding-left: 0px;
+    padding-top: 60px;
+}
+
+.ket{
+    border: 1px solid black;
+    margin-top: 5vh;
+    margin-left: 18px;
+    width: 25vw;
+    height: 65vh;
+    border: none;
+}
+
+.ket button{
+    background-color: #fcb8dd;
+    width: 22.5vw;
+    height: 3vh;
+    margin-top: 8px;
+}
+
+footer {
+    margin-top: 28px;
+    height: 40vh;
+    background-color: #d5d5cd;
+}
+
+footer h2{
+    margin-top: 10vh;
+    margin-bottom: 9vh;
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.col-1, .col-2, .col-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.footbar{
+    margin: auto;
+}
+
+.footbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-1{
+    position: relative;
+    left: -50vh;
+}
+
+.col-3{
+    position: relative;
+    left: 50vh;
+}
