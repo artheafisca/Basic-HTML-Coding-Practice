@@ -1,0 +1,17 @@
+- Bootstrap alert
+- Bootstrap d-none
+
+- jquery document.ready() (wajib)
+- jquery click
+- jquery attribute/attr
+- jquery addClass
+- jquery removeClass
+- jquery html
+- jquery css
+- jquery value/val
+- jquery children (kalau perlu)
+
+- javascript window.scrollTo(0, 0)
+- javascript event.preventDefault()
+
+- html input form DOM validationMessage

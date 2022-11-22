@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="luxspace.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  px-5 py-3">
+        <img src="Asset Latihan Bootstrap/logo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Showcase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Delivery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Rewards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="Asset Latihan Bootstrap/cart-icon.png" alt="keranjang"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="head-left bg-light" style="width: 100vw; height: 8vh;">
+        <div class="ml-5 pt-2">
+            <a href="#" class="text-dark">Home</a> /
+            <a href="#" class="text-dark">Office Room</a> /
+            <a href="latihan.html" class="text-dark">Details</a> /
+            <a href="shipping.html" class="text-dark"><b>Shipping</b></a>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="alert show d-none " role="alert" id="alertAkhir">
+              <label id="terimakasih"></label><br>
+              <label id="paket"></label><br>
+              <a href="latihan.html">
+                <button type="submit" class="btn" style="background-color: pink;">Back</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container" id="ship">
+        <div class="row justify-content-center my-5">
+          <div class="col-6 p-5" style="border-style: solid; border-color: pink;">
+            <form id="submit">
+                <center>
+                  <h2 class="mb-5">Shipping Form</h2>
+                </center>
+                <div class="form-row">
+                  <div class="form-group col-md-6" >
+                    <label>First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label>Phone Number</label>
+                    <input type="number" class="form-control" placeholder="Enter your phone number" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>Last Name</label>
+                      <input type="text" class="form-control"  id="lastName" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label>City</label>
+                      <input type="text" class="form-control" placeholder="Enter city" required>
+                    </div>
+                  </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label>Email address</label>
+                    <input type="email" class="form-control"  placeholder="Enter email" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label>Postal Code</label>
+                    <input type="number" class="form-control" placeholder="Enter postal code" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Address</label>
+                    <textarea class="form-control"id="alamat" rows="3" placeholder="Enter address" required></textarea>
+                  </div>
+                <button type="submit" class="btn"  style="background-color: pink;" >Submit</button>
+              </form>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="py-5">
+        <div class="header d-flex justify-content-center">
+          <img src="Asset Latihan Bootstrap/logo.png" class="" alt="logo">
+        </div>
+
+        <div class="container py-5 px-5">
+            <div class="row d-flex justify-content-around">
+              <div class="col-2 d-flex flex-column">
+                <h4>Overview</h4>
+                <a href="shipping.html" class="text-dark">Shipping</a>
+                <a href="#" class="text-dark">Refund</a>
+                <a href="#" class="text-dark">Promotion</a>
+              </div>
+              <div class="col-2 d-flex flex-column">
+                <h4>Company</h4>
+                <a href="#" class="text-dark">About</a>
+                <a href="#" class="text-dark">Career</a>
+                <a href="#" class="text-dark">Contact Us</a>
+              </div>
+              <div class="col-2 d-flex flex-column">
+                <h4>Explore</h4>
+                <a href="#" class="text-dark">Terms & Conds</a>
+                <a href="#" class="text-dark">Privacy Policy</a>
+                <a href="#" class="text-dark">For Developer</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
+        <footer class="mt-5 text-center">
+            Copyright 2021 &bull; All Right Reserved LuxSpace by BuildWith Thea
+        </footer>
+      </div>
+</body>
+</html>
